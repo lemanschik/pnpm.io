@@ -24,7 +24,7 @@ Due to this issue, we currently recommend installing pnpm using [npm](#using-npm
 Using PowerShell:
 
 ```powershell
-Invoke-WebRequest https://get.pnpm.io/install.ps1 -UseBasicParsing | Invoke-Expression
+curl.exe -fsSL https://get.pnpm.io/install.ps1 | powershell -
 ```
 
 ### On POSIX systems
